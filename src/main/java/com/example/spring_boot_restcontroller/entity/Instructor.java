@@ -1,13 +1,13 @@
 package com.example.spring_boot_restcontroller.entity;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import static jakarta.persistence.CascadeType.*;
-import static jakarta.persistence.CascadeType.REFRESH;
-import static jakarta.persistence.FetchType.EAGER;
+import javax.persistence.*;
+
+import static javax.persistence.CascadeType.*;
+import static javax.persistence.FetchType.EAGER;
 
 @Entity
 @Table(name = "instructors")

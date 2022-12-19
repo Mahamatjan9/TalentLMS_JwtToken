@@ -1,17 +1,17 @@
 package com.example.spring_boot_restcontroller.entity;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import static jakarta.persistence.CascadeType.*;
-import static jakarta.persistence.FetchType.LAZY;
+import static javax.persistence.CascadeType.*;
+import static javax.persistence.FetchType.LAZY;
 
 @Entity
 @Getter @Setter

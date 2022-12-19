@@ -1,12 +1,13 @@
 package com.example.spring_boot_restcontroller.dto.request;
 
 import com.example.spring_boot_restcontroller.entity.emuns.StudyFormat;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 
 @Getter
 @Setter

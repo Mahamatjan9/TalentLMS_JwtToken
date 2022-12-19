@@ -4,9 +4,9 @@ import com.example.spring_boot_restcontroller.converter.company.CompanyConverter
 import com.example.spring_boot_restcontroller.converter.company.CompanyConverterResponse;
 import com.example.spring_boot_restcontroller.dto.request.CompanyRequest;
 import com.example.spring_boot_restcontroller.dto.response.CompanyResponse;
+import com.example.spring_boot_restcontroller.service.CompanyService;
 import com.example.spring_boot_restcontroller.entity.Company;
 import com.example.spring_boot_restcontroller.repository.CompanyRepository;
-import com.example.spring_boot_restcontroller.service.CompanyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

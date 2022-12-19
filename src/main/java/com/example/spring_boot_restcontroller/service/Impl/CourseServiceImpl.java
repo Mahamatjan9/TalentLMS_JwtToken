@@ -4,11 +4,11 @@ import com.example.spring_boot_restcontroller.converter.course.CourseConverterRe
 import com.example.spring_boot_restcontroller.converter.course.CourseConverterResponse;
 import com.example.spring_boot_restcontroller.dto.request.CourseRequest;
 import com.example.spring_boot_restcontroller.dto.response.CourseResponse;
+import com.example.spring_boot_restcontroller.service.CourseService;
 import com.example.spring_boot_restcontroller.entity.Company;
 import com.example.spring_boot_restcontroller.entity.Course;
 import com.example.spring_boot_restcontroller.repository.CompanyRepository;
 import com.example.spring_boot_restcontroller.repository.CourseRepository;
-import com.example.spring_boot_restcontroller.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,14 +1,14 @@
 package com.example.spring_boot_restcontroller.entity;
 
 import com.example.spring_boot_restcontroller.entity.emuns.StudyFormat;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import static jakarta.persistence.CascadeType.*;
-import static jakarta.persistence.CascadeType.REFRESH;
+import javax.persistence.*;
+
+import static javax.persistence.CascadeType.*;
 
 @Entity
 @Table(name = "students")

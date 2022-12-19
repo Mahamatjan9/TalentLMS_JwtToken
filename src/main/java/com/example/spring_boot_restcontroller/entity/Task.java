@@ -1,11 +1,12 @@
 package com.example.spring_boot_restcontroller.entity;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import static jakarta.persistence.CascadeType.*;
+import javax.persistence.*;
+
+import static javax.persistence.CascadeType.*;
 
 @Entity
 @Table(name = "task")
